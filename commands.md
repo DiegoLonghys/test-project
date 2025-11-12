@@ -1,4 +1,7 @@
 `supabase status` -> Get the local conection (Docker)
+`supabase projects list` -> List all your linked supabase projects
+
+
 `supabase start` -> Starts local db (Docker) in port http://localhost:54323/
 `supabase db reset` -> Restarts and applies seed.sql/changes in schemas if exists
 `supabase stop` -> Ends docker connection and save a backup
