@@ -2,6 +2,7 @@
 `supabase start` -> Starts local db (Docker) in port http://localhost:54323/
 `supabase db reset` -> Restarts and applies seed.sql/changes in schemas if exists
 `supabase stop` -> Ends docker connection and save a backup
+`supabase stop --no-backup` -> Ends docker connection and clean the backup
 
 `supabase db pull` -> Get the remote changes and create a diff file in `supabase/migrations`
 
